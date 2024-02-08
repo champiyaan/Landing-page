@@ -52,7 +52,7 @@ header {
 
 #nav-title {
 
-margin-left: 120px;
+margin-left: 80px;
 font-weight: bold;
 color: white;
 font-size: 60px ;   
@@ -64,7 +64,7 @@ header a:hover {
 }
 
 nav ul {
-  margin-right: 200px; 
+  margin-right: 235px; 
 
 }
 
@@ -88,6 +88,15 @@ color: white;
     margin-right:100px;
 }
 
+.flex-item button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bolder;
+    width: 100px;
+}
 .wrapper{
 
 
@@ -95,6 +104,7 @@ color: white;
   
     align-items: center;
     gap: 20px;
+    padding-left: ;
    
 }
 
@@ -135,18 +145,56 @@ padding-top: 12px;
 }
 
 
+.article{
+    
+        flex-direction: column;
+        align-items: center;
+justify-content: center;
+padding-left: 250px;
+padding-right: 250px;
+background-color: rgb(199, 194, 194);
+ 
+  }
+
+  .floating-box {
+display: flex;
+background-color: #3882F6;
+color: white;
+align-items: center;
+width: 800px;
+height: 125px;
+justify-content: space-around;
+border-radius: 10px;
+margin-top: 70px;
+padding: 0 20px;
+margin-left: 400px;
+margin-right: 400px;
+  }
+
+
+  footer{
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 32px;
+    background-color: gray;
+    margin-top: 200px;
+    display: flex;
+}
+ 
+   
+  
 
     </style>
     <body>
 
 <header>
-      <h1 id="nav-title"> TOOLBOX </h1>
+      <h1 id="nav-title"> TEKCENT-RAL </h1>
 
       <nav>
         <ul>
 
-            <li ><a href="#">Users</a></li>
-            <li><a href="#">Home</a></li>
+            <li ><a href="#">Product</a></li>
+            <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">About</a></li>
 
@@ -177,8 +225,8 @@ padding-top: 12px;
     making them smarter and more efficient.</p><br>As we look ahead, the potential of quantum computing and 
     5G technology promises even more exciting possibilities.</p>
     
-    <p>The best tech of the year has not only changed our present but also paved the way for a brighter future.</p>
-
+    <p>The best tech of the year has not only changed our present but also paved the way for a brighter future.</p><br>
+    <button>Sign up</button>
 
         </div>
 
@@ -193,9 +241,6 @@ padding-top: 12px;
 
 
 
-
-
-
     </div>
 
 
@@ -204,31 +249,74 @@ padding-top: 12px;
 <div class="wrapper"> 
 
 <div class="box"> 
-<img src="images/board.webp">
-    <div class="text">We have so many plants. Yay plants.</div>
+<img src="images/oneplus.jpg">
+    <div class="text">One-Plus</div>
 </div>
 
 <div class="box"> 
-    <img src="images/board.webp">
-    <div class="text">We have so many plants. Yay plants.</div>    
+    <img src="images/iphone.jpg">
+    <div class="text">Iphone 15 Pro</div>    
 </div>
 
 <div class="box">  
-    <img src="images/board.webp">
-    <div class="text">We have so many plants. Yay plants.</div>
+    <img src="images/samsung.jpg">
+    <div class="text">Samsung S24</div>
 </div>
 
 <div class="box">  
-    <img src="images/board.webp">
-    <div class="text">We have so many plants. Yay plants.</div>
+    <img src="images/sony.jpg">
+    <div class="text">Sony</div>
 </div>
 
 
 
 
 </div>
+ <br>
+<div class="article">
 
+
+    <h1> The Future of Technology </h1>
+
+    <p>Technology is constantly evolving, and the future of technology is no exception. 
+        In the coming years, we can expect to see even more exciting innovations that will 
+        change the way we live and work.</p><br>
+        <p>One of the most exciting developments on the horizon is the rise of artificial intelligence (AI). 
+            AI has the potential to revolutionize a wide range of industries, from healthcare and finance to 
+            transportation and entertainment. As AI continues to advance, we can expect to see more intelligent 
+            machines and systems that can perform complex tasks with minimal human intervention.</p><br>
+            <p>Another area of technology that is set to transform the future is renewable energy. 
+                As the world grapples with the challenges of climate change, the demand for clean, 
+                sustainable energy sources is greater than ever. In the coming years, we can expect to see 
+                more efficient solar panels, wind turbines, and other renewable energy technologies that will 
+                help to power our homes and cities in a more sustainable way.</p><br>
+                <p>As we look ahead, the future of technology is full of exciting possibilities. 
+                    From AI and renewable energy to quantum computing and 5G technology, the potential for 
+                    innovation is limitless. The future of technology is bright, and we can't wait to see what 
+                    the next decade has in store.</p><br>
+                    
+</div>
+
+ <div class="floating-box">
+
+    <h2>Support Our Blog</h2> <br>
+    <p>Share our articles on social media.<br>
+    Leave comments and engage with our content.<br>
+    Subscribe to our newsletter for updates.<br>
+    Consider donating to help us continue creating valuable content.<br>
+    Spread the word and recommend our blog to friends and colleagues.</p><br>
+
+ </div>
+
+ <footer>
+
+    <div class="end">
+
+        Copyright © The Odin Project 2024
+    </div>
+ </footer>
 
  
     </body>
 </html>
+
